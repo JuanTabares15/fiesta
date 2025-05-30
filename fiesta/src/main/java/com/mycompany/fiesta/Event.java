@@ -8,7 +8,7 @@ public class Event {
     private String category;
 
     private int ticketsSold = 0;
-    private int ticketLimit;  // Cambiado de static final a variable por evento
+    private int ticketLimit;  
 
     public Event(String name, String date, String time, String location, String category, int ticketLimit) {
         this.name = name;
@@ -19,7 +19,7 @@ public class Event {
         this.ticketLimit = ticketLimit;
     }
 
-    // Getters y setters normales (omito algunos por brevedad)
+    // Getters y setters 
     public String getName() { return name; }
     public int getTicketsSold() { return ticketsSold; }
     public int getTicketLimit() { return ticketLimit; }
